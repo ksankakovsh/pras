@@ -982,6 +982,20 @@ footer .wrap {
     max-width: 600px;
   }
 
+  #menu__toggle:checked ~ .menu {
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .menu__footer-advert {
+    margin-bottom: 25px;
+  }
+
+  .form-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .menu__header {
     margin-bottom: 50px;
   }
@@ -1019,6 +1033,14 @@ footer .wrap {
 }
 
 @media (max-width: 630px) {
+  .menu__header {
+    margin-bottom: 25px;
+  }
+
+  .menu__nav-item {
+    margin-bottom: 15px;
+  }
+
   .articles {
     padding: 30px 0;
   }
